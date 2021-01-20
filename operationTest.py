@@ -20,11 +20,5 @@ class TestOperacion(unittest.TestCase):
 	def test_raiz(self):
 		self.assertEqual(operation.raiz(81), 9)
 
-	def test_dividir(self):
-		self.assertEqual(operation.dividir(3,8), 2/8)
-	
-	def test_raiz(self):
-		self.assertEqual(operation.raiz(100), 1)
-
 if __name__ == '__main__':
     unittest.main()
