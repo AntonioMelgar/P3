@@ -19,6 +19,12 @@ class TestOperacion(unittest.TestCase):
 	
 	def test_raiz(self):
 		self.assertEqual(operation.raiz(81), 9)
+		
+	def test_raiz(self):
+		self.assertEqual(operation.raiz(81), 5)
+		
+	def test_raiz(self):
+		self.assertEqual(operation.raiz(81), 5)	
 
 if __name__ == '__main__':
     unittest.main()
